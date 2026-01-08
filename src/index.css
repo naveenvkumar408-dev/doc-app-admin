@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #5f6FFF;
+}
+
+*{
+  font-family: Outfit;
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary{
+    color : var(--color-primary)
+}
+
+.border-primary{
+  color: var(--color-primary);
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
